@@ -2,7 +2,7 @@ import yfinance as yf
 
 
 sq = yf.Ticker("SQ")
-netflix = yf.Ticker("NFLX")
+netflix = yf.Ticker("AAPL")
 
 # get stock info
 print(sq.info["symbol"] + ": " + str(sq.info["regularMarketPrice"]))
